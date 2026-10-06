@@ -1,4 +1,3 @@
-
 sudo snap install microstack --beta
 snap list microstack
 sudo microstack init --auto --control
