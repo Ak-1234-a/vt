@@ -1,3 +1,8 @@
+sudo dpkg --configure -a
+sudo apt --fix-broken install
+
+sudo apt install snapd
+
 sudo snap install microstack --beta
 snap list microstack
 sudo microstack init --auto --control
