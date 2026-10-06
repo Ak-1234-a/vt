@@ -1,4 +1,3 @@
-9 – Installation of OpenStack and VM creation - Minimal commands
 
 sudo snap install microstack --beta
 snap list microstack
