@@ -1,5 +1,3 @@
-6) Shared Folder – Minimal Commands  
-
 devices -> insert guest cd and shared folder setting add Win folders
 
 ls /media
