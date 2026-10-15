@@ -5,7 +5,6 @@ sudo apt update/upgrade
 wget https://download.cirros-cloud.net/0.5.1/cirros-0.5.1-x86_64-disk.img
 
 sudo apt install qemu-kvm libvirt-bin bridge-utils virt-manager qemu-system
-apt-get
 
 sudo systemctl enable --now libvirtd
 sudo systemctl status libvirtd
