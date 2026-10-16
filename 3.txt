@@ -1,0 +1,23 @@
+public class SumExecutionTime {
+    public static void main(String[] args) {
+
+        long sum = 0;
+
+        long startTime = System.nanoTime();
+
+        for (int i = 1; i <= 100000000; i++) {
+            sum += i;
+        }
+
+        long endTime = System.nanoTime();
+
+        long executionTime = endTime - startTime;
+
+        System.out.println("Sum = " + sum);
+        System.out.println("Execution Time = "
+                + executionTime + " nanoseconds");
+
+        System.out.println("Execution Time = "
+                + (executionTime / 1000000.0) + " milliseconds");
+    }
+}
